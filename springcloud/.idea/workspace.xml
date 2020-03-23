@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cbd35d8-b0c6-4f0f-89fe-2365c1f587b0" name="Default Changelist" comment="" />
+    <list default="true" id="2cbd35d8-b0c6-4f0f-89fe-2365c1f587b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../redis/redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/src/main/java/org/tongzhou/consulconsumer/ConsulConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-consumer/src/test/java/org/tongzhou/consulconsumer/ConsulConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/src/main/java/org/tongzhou/consulprovider/ConsulProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-provider/src/test/java/org/tongzhou/consulprovider/ConsulProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/ModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-api/src/main/java/org/tongzhou/model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/HystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/service/HelloCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/test/java/org/tongzhou/hystrix/HystrixApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/ModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/OpenfeginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/src/test/java/org/tongzhou/openfegin/OpenfeginApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/UserCpntroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/UserCpntroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +72,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -25,16 +91,21 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1ZShYnx1njq6KELnJmFxfmsUGSd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka/src/main/resources" />
@@ -48,7 +119,21 @@
       <recent name="D:\date\de\springcloud\eureka\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Spring Boot.OpenfeginApplication">
+    <configuration name="ConsulConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.consulconsumer.ConsulConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsulProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.consulprovider.ConsulProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.eureka.EurekaApplication" />
@@ -66,6 +151,20 @@
     <configuration name="EurekaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaprovider.EurekaProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.hystrix.HystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenfeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="openfegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.openfegin.OpenfeginApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,53 +195,58 @@
       <workItem from="1584838454273" duration="6798000" />
       <workItem from="1584849187995" duration="5341000" />
       <workItem from="1584857947312" duration="1306000" />
+      <workItem from="1584873261777" duration="3596000" />
+      <workItem from="1584926645925" duration="11732000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="233" y="3" key="#Project_Structure" timestamp="1584840511815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1584840511815" />
-    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1584850465950">
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1584938339531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584850465950" />
-    <state width="1237" height="402" key="GridCell.Tab.0.bottom" timestamp="1584857928472">
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584938339531" />
+    <state width="1237" height="139" key="GridCell.Tab.0.bottom" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584857928472" />
-    <state width="1237" height="402" key="GridCell.Tab.0.center" timestamp="1584857928472">
+    <state width="1237" height="139" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="139" key="GridCell.Tab.0.center" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584857928472" />
-    <state width="1237" height="402" key="GridCell.Tab.0.left" timestamp="1584857928471">
+    <state width="1237" height="139" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="139" key="GridCell.Tab.0.left" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584857928471" />
-    <state width="1237" height="402" key="GridCell.Tab.0.right" timestamp="1584857928472">
+    <state width="1237" height="139" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="139" key="GridCell.Tab.0.right" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584857928472" />
-    <state width="1237" height="402" key="GridCell.Tab.1.bottom" timestamp="1584857928472">
+    <state width="1237" height="139" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="139" key="GridCell.Tab.1.bottom" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584857928472" />
-    <state width="1237" height="402" key="GridCell.Tab.1.center" timestamp="1584857928472">
+    <state width="1237" height="139" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="139" key="GridCell.Tab.1.center" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584857928472" />
-    <state width="1237" height="402" key="GridCell.Tab.1.left" timestamp="1584857928472">
+    <state width="1237" height="139" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="139" key="GridCell.Tab.1.left" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584857928472" />
-    <state width="1237" height="402" key="GridCell.Tab.1.right" timestamp="1584857928472">
+    <state width="1237" height="139" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="139" key="GridCell.Tab.1.right" timestamp="1584941051514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="402" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584857928472" />
+    <state width="1237" height="139" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1584849230431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -151,13 +255,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584858302255" />
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1584857947291">
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1584926648559">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584857947291" />
-    <state x="28" y="45" key="new project wizard" timestamp="1584859251978">
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584926648559" />
+    <state x="28" y="45" key="new project wizard" timestamp="1584937612979">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="45" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584859251978" />
+    <state x="28" y="45" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584937612979" />
   </component>
 </project>

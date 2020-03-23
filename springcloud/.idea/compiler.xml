@@ -6,18 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-provider" />
+        <module name="consul-provider" />
+        <module name="hystrix" />
         <module name="commons" />
+        <module name="openfegin" />
         <module name="eureka-consumer" />
         <module name="eureka" />
+        <module name="eureka-provider" />
+        <module name="consul-consumer" />
+        <module name="hello-api" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consul-consumer" options="-parameters" />
+      <module name="consul-provider" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-provider" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="openfegin" options="-parameters" />
     </option>
   </component>
 </project>

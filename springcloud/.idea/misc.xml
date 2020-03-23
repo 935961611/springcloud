@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/openfegin/pom.xml" />
       </list>
     </option>
   </component>
