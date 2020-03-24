@@ -7,13 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consul-provider" />
-        <module name="hystrix" />
+        <module name="gateway" />
         <module name="commons" />
         <module name="openfegin" />
-        <module name="eureka-consumer" />
+        <module name="micrometer" />
         <module name="eureka" />
+        <module name="eureka-consumer" />
+        <module name="hystrix" />
         <module name="eureka-provider" />
         <module name="consul-consumer" />
+        <module name="resilience4j" />
         <module name="hello-api" />
       </profile>
     </annotationProcessing>
@@ -25,8 +28,11 @@
       <module name="eureka" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-provider" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="micrometer" options="-parameters" />
       <module name="openfegin" options="-parameters" />
+      <module name="resilience4j" options="-parameters" />
     </option>
   </component>
 </project>

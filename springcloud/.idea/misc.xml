@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/consul-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/openfegin/pom.xml" />
+        <option value="$PROJECT_DIR$/resilience4j/pom.xml" />
+        <option value="$PROJECT_DIR$/micrometer/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </list>
     </option>
   </component>

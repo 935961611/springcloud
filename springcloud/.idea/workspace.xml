@@ -2,67 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cbd35d8-b0c6-4f0f-89fe-2365c1f587b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../redis/redis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/src/main/java/org/tongzhou/consulconsumer/ConsulConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/src/test/java/org/tongzhou/consulconsumer/ConsulConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/src/main/java/org/tongzhou/consulprovider/ConsulProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/src/test/java/org/tongzhou/consulprovider/ConsulProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/ModelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-api/src/main/java/org/tongzhou/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/HystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/service/HelloCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/org/tongzhou/hystrix/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/test/java/org/tongzhou/hystrix/HystrixApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/ModelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/OpenfeginApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfegin/src/test/java/org/tongzhou/openfegin/OpenfeginApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/tongzhou/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/org/tongzhou/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/micrometer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/src/main/java/org/tongzhou/micrometer/MicrometerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micrometer/src/test/java/org/tongzhou/micrometer/MicrometerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/HelloServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/src/main/java/org/tongzhou/resilience4j/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/src/main/java/org/tongzhou/resilience4j/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/src/main/java/org/tongzhou/resilience4j/Resilience4jApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resilience4j/src/test/java/org/tongzhou/resilience4j/Resilience4jApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/UserCpntroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/example/eurekaprovider/model/UserCpntroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/openfegin/src/main/java/org/tongzhou/openfegin/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openfegin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/openfegin/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +104,7 @@
       <recent name="D:\date\de\springcloud\eureka\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OpenfeginApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="ConsulConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consul-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.consulconsumer.ConsulConsumerApplication" />
@@ -155,6 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hystrix" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.hystrix.HystrixApplication" />
@@ -162,9 +154,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicrometerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micrometer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.micrometer.MicrometerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenfeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="openfegin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.openfegin.OpenfeginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Resilience4jApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="resilience4j" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tongzhou.resilience4j.Resilience4jApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,6 +203,8 @@
       <workItem from="1584857947312" duration="1306000" />
       <workItem from="1584873261777" duration="3596000" />
       <workItem from="1584926645925" duration="11732000" />
+      <workItem from="1585009754601" duration="1375000" />
+      <workItem from="1585011134759" duration="16090000" />
     </task>
     <servers />
   </component>
@@ -207,46 +215,46 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="3" key="#Project_Structure" timestamp="1584840511815">
+    <state x="233" y="3" key="#Project_Structure" timestamp="1585013689710">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1584840511815" />
-    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1584938339531">
+    <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1585013689710" />
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1585009957030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584938339531" />
-    <state width="1237" height="139" key="GridCell.Tab.0.bottom" timestamp="1584941051514">
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585009957030" />
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
-    <state width="1237" height="139" key="GridCell.Tab.0.center" timestamp="1584941051514">
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
+    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
-    <state width="1237" height="139" key="GridCell.Tab.0.left" timestamp="1584941051514">
+    <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
+    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
-    <state width="1237" height="139" key="GridCell.Tab.0.right" timestamp="1584941051514">
+    <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
+    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
-    <state width="1237" height="139" key="GridCell.Tab.1.bottom" timestamp="1584941051514">
+    <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
+    <state width="1237" height="124" key="GridCell.Tab.1.bottom" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
-    <state width="1237" height="139" key="GridCell.Tab.1.center" timestamp="1584941051514">
+    <state width="1237" height="124" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
+    <state width="1237" height="124" key="GridCell.Tab.1.center" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
-    <state width="1237" height="139" key="GridCell.Tab.1.left" timestamp="1584941051514">
+    <state width="1237" height="124" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
+    <state width="1237" height="124" key="GridCell.Tab.1.left" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
-    <state width="1237" height="139" key="GridCell.Tab.1.right" timestamp="1584941051514">
+    <state width="1237" height="124" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
+    <state width="1237" height="124" key="GridCell.Tab.1.right" timestamp="1585051701949">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584941051514" />
+    <state width="1237" height="124" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585051701949" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1584849230431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -259,9 +267,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584926648559" />
-    <state x="28" y="45" key="new project wizard" timestamp="1584937612979">
+    <state x="28" y="45" key="new project wizard" timestamp="1585045726973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="45" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584937612979" />
+    <state x="28" y="45" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1585045726973" />
   </component>
 </project>

@@ -1,0 +1,29 @@
+resilience4j:
+  retry:
+    retry-aspect-order: 399
+    backends:
+      retryA:
+        maxRetryAttempts: 5
+        waitDuration: 500
+        exponentialBackoffMultiplier: 1.1
+        retryException:
+          -java.long.RuntimeException
+  circuitbreaker:
+    instances:
+      cba:
+        ringBufferSizeInClosedState: 5
+        ringBufferSizeInHalfOpenState: 3
+        waitInterval: 5000
+        recordException:
+          - org.springframework.web.client.HttpServerErrorException
+
+    circuit-breaker-aspect-order: 398
+spring:
+  application:
+    name: resilience4j
+server:
+  port: 5000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka

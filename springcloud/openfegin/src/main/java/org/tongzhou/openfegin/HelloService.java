@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.tongzhou.model.Model;
 import org.tongzhou.model.User;
 
-@FeignClient("provider")
+@FeignClient(value = "provider",fallback = HelloServiceFallBack.class)
 public interface HelloService extends Model {
 
     @GetMapping("/hello")

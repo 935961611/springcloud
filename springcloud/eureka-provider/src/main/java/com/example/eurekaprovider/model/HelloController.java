@@ -1,6 +1,7 @@
 package com.example.eurekaprovider.model;
 
 
+import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 import org.omg.CORBA.PUBLIC_MEMBER;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
@@ -9,6 +10,7 @@ import org.tongzhou.model.User;
 import java.net.URLDecoder;
 import java.security.PublicKey;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -16,8 +18,9 @@ public class HelloController {
     @Value("${server.port}")
     Integer port;
     @GetMapping("/hello")
+    @RateLimiter(name = "rlA")
     public String hello(){
-        System.out.println("端口号:"+port);
+        System.out.println("端口号:"+port+new Date());
         return "hello eureka:"+port;
     }
 
